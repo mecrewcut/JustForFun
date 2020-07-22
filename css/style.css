@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;  //без_подчеркивания
+    display: inline-block;  //в_линию
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header_top{
+    background-color: #393535;
+    line-height: 40px;
+    font-size: 15px;
+}
+.header_email{
+    float: right;
+    padding-right: 10px;
+    color: azure;
+}
+.header_phone{
+    padding-left: 10px;
+    color: azure;
+}
+.fa-phone{
+    color: #FFA500  ;
+}
+.fa-envelope-o{
+    padding-right: 3px;
+    color: #FFA500;
+}
+.menu, li{
+    display: inline-block;
+    margin: auto;
+}
+.menu, li + li{
+    padding-left: 10px;
+}
+.menu a{
+    line-height: 60px;
+    font-size: 21px;
+    border-radius: 10px;
+    padding: 3px 20px;
+    background-color: #FFA500;
+    color: #F5F5DC;
+    border: 2px solid transparent;
+    transition: all .2s;
+}
+.header_bottom{
+    margin: 0 auto;
+}
+.menu a:hover{
+    border-color: #B8860B;
+    color: #FFF;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
